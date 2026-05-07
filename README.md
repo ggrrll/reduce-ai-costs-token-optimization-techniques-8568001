@@ -1,5 +1,5 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Reduce AI Costs: Token Optimization Techniques
+This is the repository for the LinkedIn Learning course `Reduce AI Costs: Token Optimization Techniques`. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![lil-thumbnail-url]
 

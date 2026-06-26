@@ -1,0 +1,7 @@
+{"type": "user", "text": "find the failing payment and explain it"}
+{"type": "assistant", "usage": {"input_tokens": 43, "output_tokens": 21}, "tool_calls": [{"name": "Read", "input": {"file": "CLAUDE.md"}, "result_tokens": 407}]}
+{"type": "assistant", "usage": {"input_tokens": 43, "output_tokens": 18}, "tool_calls": [{"name": "Read", "input": {"file": "app.log"}, "result_tokens": 8120743}]}
+{"type": "assistant", "usage": {"input_tokens": 43, "output_tokens": 27}, "tool_calls": [{"name": "Grep", "input": {"pattern": "ERROR"}, "result_tokens": 64}]}
+{"type": "user", "text": "now check src and propose a fix"}
+{"type": "assistant", "usage": {"input_tokens": 53, "output_tokens": 21}, "tool_calls": [{"name": "Read", "input": {"file": "src/payments.py"}, "result_tokens": 231}, {"name": "Read", "input": {"file": "src/cache.py"}, "result_tokens": 70}]}
+{"type": "assistant", "usage": {"input_tokens": 53, "output_tokens": 21}, "tool_calls": [{"name": "Edit", "input": {"file": "src/payments.py"}, "result_tokens": 73}]}

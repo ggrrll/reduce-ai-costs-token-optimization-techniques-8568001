@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
+    "jira": {
+      "type": "http",
+      "url": "https://mcp.prod.linkedin.com/mcp?label=pii-free&label=preview&label=jira"
+    },
+    "glean": {
+      "type": "http",
+      "url": "https://mcp.prod.linkedin.com/mcp?label=pii-free&label=preview&label=glean"
+    },
+    "confluence": {
+      "type": "http",
+      "url": "https://mcp.prod.linkedin.com/mcp?label=pii-free&label=preview&label=confluence"
+    },
+    "slack": {
+      "type": "http",
+      "url": "https://mcp.prod.linkedin.com/mcp?label=pii-free&label=preview&label=slack"
+    }
+  }
+}

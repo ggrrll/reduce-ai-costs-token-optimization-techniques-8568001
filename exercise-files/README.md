@@ -4,11 +4,12 @@ Self-contained. Every chapter folder has the files it needs (including its own `
 so `app.log` is always one command away). Every demo requires `ANTHROPIC_API_KEY`
 and the `anthropic` package.
 
-**One-time setup** — from the `exercise-files` folder, run:
+**One-time setup** — install [uv](https://docs.astral.sh/uv/), then from the
+`exercise-files` folder run:
 
 ```bash
-bash install.sh
-source ~/.venv/token-opt/bin/activate
+uv sync
+source .venv/bin/activate
 export ANTHROPIC_API_KEY=sk-ant-...
 ```
 

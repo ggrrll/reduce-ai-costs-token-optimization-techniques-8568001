@@ -4,7 +4,7 @@
 # prepend `rtk test` and only the failure survives. Token counts via Anthropic
 # count_tokens (claude-opus-4-8) when ANTHROPIC_API_KEY is set; else line counts.
 #
-# Setup: source ~/.venvs/headroom/bin/activate  (needs pytest + anthropic + rtk on PATH)
+# Setup: source ../.venv/bin/activate  (needs pytest + anthropic + rtk on PATH)
 # Run:   ./rtk_demo.sh          (from demos/ch4)
 set -euo pipefail
 cd "$(dirname "$0")"

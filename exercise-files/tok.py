@@ -5,12 +5,13 @@ import os, sys
 
 if not os.environ.get("ANTHROPIC_API_KEY"):
     sys.exit("ERROR: this demo requires a real API key. "
-             "Activate the venv and `export ANTHROPIC_API_KEY=sk-...`, then rerun.")
+             "Run `uv sync` from exercise-files, activate `.venv`, and "
+             "`export ANTHROPIC_API_KEY=sk-...`, then rerun.")
 try:
     import anthropic
 except ImportError:
-    sys.exit("ERROR: `anthropic` not installed. Activate the venv that has it "
-             "(e.g. `source ~/.venvs/headroom/bin/activate`).")
+    sys.exit("ERROR: `anthropic` not installed. Run `uv sync` from exercise-files "
+             "and activate its `.venv`.")
 
 text = open(sys.argv[1]).read() or " "
 n = anthropic.Anthropic().messages.count_tokens(

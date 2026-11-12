@@ -1,0 +1,17 @@
+[project]
+name = "exercise-files"
+version = "0.1.0"
+description = "Demo scripts for Reduce AI Costs: Token Optimization Techniques"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic",
+    "headroom-ai[all]",
+    "ponytail",
+    "pytest",
+    "requests",
+    "rtk",
+    "serena",
+]
+
+[tool.uv]
+package = false

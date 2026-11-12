@@ -3,7 +3,7 @@
 # Uses Python's built-in `ast` module on a real well-known file (requests/sessions.py).
 # Serena does this repo-wide over MCP/LSP; this shows the principle and the token numbers.
 #
-# Setup: source ~/.venvs/headroom/bin/activate
+# Setup: source ../.venv/bin/activate
 # Run:   ./serena_demo.sh          (from demos/ch4)
 set -euo pipefail
 cd "$(dirname "$0")"
